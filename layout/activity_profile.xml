@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/headerbkg"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="115dp"
+                android:src="@drawable/pro"
+                android:layout_margin="40dp">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="45dp"
+                android:fontFamily="@font/wo"
+                android:text="Revamp"
+                android:textColor="#47260F"
+                android:textSize="35dp"
+                android:textStyle="bold"></TextView>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/he"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Help"
+                    android:textColor="#000"
+                    android:textSize="25dp"
+                    android:layout_margin="15dp"></TextView>
+            </LinearLayout><LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/ba1"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FeedBack"
+                    android:textColor="#000"
+                    android:textSize="25dp"
+                    android:layout_margin="15dp"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/bt"
+            android:layout_margin="250dp"
+            android:background="@drawable/btn"
+            android:fontFamily="@font/wo"
+            android:text="Logout"
+            android:textSize="20dp"
+            android:textColor="@color/white"></androidx.appcompat.widget.AppCompatButton>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
